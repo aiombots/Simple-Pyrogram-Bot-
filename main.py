@@ -30,7 +30,7 @@ async def start_message(bot, message):
 
 
 
-@Muhammad.on_callback_query()
+@Muhammed.on_callback_query()
 async def callback(bot, msg: CallbackQuery):
     if msg.data == "start":
         await msg.message.edit(
