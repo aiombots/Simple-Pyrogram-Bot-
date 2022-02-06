@@ -9,7 +9,7 @@ PHOTO_LINK = [
  "https://telegra.ph/file/5025089cc3a6ee4a3b15e.jpg"
  ]
 
-Muhammed = Client(
+Muhammed=Client(
     "Pyrogram Bot",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
